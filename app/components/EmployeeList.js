@@ -41,11 +41,11 @@ class EmployeeList extends Component {
         dataSource={this.state.dataSource}
         renderRow={(rowData) =>
           <Text style={ styles.listStyle }>
-            <Text style={ styles.userStyle } >
+            <Text style={ styles.userStyle }>
               {rowData.user + " "}
             </Text>
 
-            <Text style={ styles.listStyle } >
+            <Text style={ styles.listStyle }>
               {"Business ID: " + rowData.bizId},
               {"Week Time: " + rowData.weekTimeInHours},
               {"Pay Rate: " + rowData.payRate},
